@@ -1,0 +1,38 @@
+.fondoimagen {
+  background-color: #e6e6e6;
+  text-align: center;
+}
+.primertitulo {
+  background-color: #c4c4c4;
+  color: #005677;
+  ;
+  font-family: "Island Moments", cursive;
+  font-size: 60px;
+  text-transform: capitalize;
+
+}
+.datos{background-color: #c4c4c4;
+    color: #005677;
+font-family:"Island Moments", cursive;
+font-size: 40px;
+text-transform: capitalize;}
+
+.dato{font-family:"Island Moments",cursive;
+font-size: 40px;
+font-weight: 700;}
+
+.fecha{font-size: 30px;
+font-weight: 700;}
+
+.pie{background-color:#005677;
+  color: #c4c4c4;
+text-align: center;}
+
+.telefono{font-size: 30px;
+}
+
+.fa-instagram{color: red;
+font-size: 30px;}
+
+.fa-linkedin{color: aqua;
+font-size: 30px;}
