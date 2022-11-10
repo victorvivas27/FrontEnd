@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.title {
+  background-color: #1cd1b0;
+  padding: 10px 27px 10px;
+  font-weight: 400px;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.title_dos {
+  background-color: #00669f;
+  padding: 38px;
+  font-weight: 400px;
+  font-size: 40px;
+  line-height: 47px;
+}
+.contenedor_padre {
+  height: 80vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.caja {
+  /* HEIGHT -> ALTURA */
+  height: 600px;
+  /* WIDTH -> ANCHO */
+  width: 400px;
+  /* MARGIN -> Márgenes -> espacio alrededor de nuestra caja. Admite 4 valores*/
+  margin: 20px;
+  /* margin es el atajo de -> margin-top, margin-bottom, margin-right y margin-left */
+  /* PADDING -> Relleno - espacio entre el contenido y el border */
+  padding: 5px;
+  border: solid 1px;
+  text-align: center;
+}
+.fondo {
+  height: 255px;
+  position: relative;
+  right: 5px;
+  bottom: 25px;
+  z-index: 0;
+}
+.heart {
+  position: relative;
+  bottom: 350px;
+  right: 80px;
+  z-index: 1;
+}
+.perfil {
+  position: relative;
+  bottom: 100px;
+  z-index: 1;
+}
+.datos {
+  position: relative;
+  bottom: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.name {
+  font-size: 50px;
+  position: relative;
+  bottom: 100px;
+  font-family: "Times New Roman", Times, serif;
+}
+button {
+  background-color: #00669f;
+  color: #fff9f9;
+  position: relative;
+  bottom: 50px;
+  height: 60px;
+  width: 200px;
+}
+
+.pie {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #00669f;
+  color: #fff9f9;
+  margin: 20px 1px 1px 1px;
+  padding: 16px 16px 16px;
+}
