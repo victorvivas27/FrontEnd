@@ -1,0 +1,102 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.top-padre {
+  border: solid 2px red;
+  background-color: black;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.top-hijo {
+  padding: 4px 65px;
+}
+
+.nav {
+  color: aliceblue;
+  padding: 4px;
+}
+.ofertas {
+  padding: 4px 65px;
+}
+.header-padre {
+  display: flex;
+  border: solid 2px red;
+  background: #f0a83e;
+  width: 100%;
+  height: 65px;
+  align-items: center;
+}
+.header-hijo {
+  height: 30px;
+  width: 60%;
+  display: flex;
+  padding: 0px 30px;
+}
+.contacto-hijo {
+  width: 35%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.baner-padre {
+  width: 1800;
+  height: 900px;
+  border: solid 2px navy;
+  margin: 3px;
+  background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+  background-size: cover;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.baner-hijo {
+  border: solid 2px rebeccapurple;
+  width: 600px;
+  height: 150px;
+  padding: 0px 90px;
+  background-repeat: no-repeat;
+  background-size: 500px;
+  background-image: url(../img/Es\ un\ placer\ tenerte\ aquí.png);
+  position: relative;right: 70px;top: 50px;
+  border-radius: 5px;
+}
+.baner-hijo-2 {
+  border: solid 2px royalblue;
+  width: 200px;
+  height: 75px;
+  background-image: url(../img/btn\ comederos.png);
+  background-repeat: no-repeat;
+  background-size: 200px;
+  border-radius: 10%;
+position: relative;right: 300px;top:  50px;
+}
+.cuerpo-padre{
+  height: 300px;
+  border: solid 2px chartreuse;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.cuerpo-hijo{height: 100px;
+  width: 100px;
+  
+}
+.cuerpo-hijo2{
+  border: solid 2px seagreen;
+  
+}
+.cuerpo-hijo3{
+  font-size: 30px;
+  font-weight: 400;
+}
+.article-padre{
+  display: flex;
+  border: solid 2px cornflowerblue;
+}
+
