@@ -50,7 +50,7 @@
   background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
   background-size: cover;
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   justify-content: center;
   align-items: flex-end;
 }
@@ -62,7 +62,9 @@
   background-repeat: no-repeat;
   background-size: 500px;
   background-image: url(../img/Es\ un\ placer\ tenerte\ aquí.png);
-  position: relative;right: 70px;top: 50px;
+  position: relative;
+  right: 70px;
+  top: 50px;
   border-radius: 5px;
 }
 .baner-hijo-2 {
@@ -73,9 +75,11 @@
   background-repeat: no-repeat;
   background-size: 200px;
   border-radius: 10%;
-position: relative;right: 300px;top:  50px;
+  position: relative;
+  right: 300px;
+  top: 50px;
 }
-.cuerpo-padre{
+.cuerpo-padre {
   height: 300px;
   border: solid 2px chartreuse;
   display: flex;
@@ -83,20 +87,18 @@ position: relative;right: 300px;top:  50px;
   align-items: center;
   justify-content: space-around;
 }
-.cuerpo-hijo{height: 100px;
+.cuerpo-hijo {
+  height: 100px;
   width: 100px;
-  
 }
-.cuerpo-hijo2{
+.cuerpo-hijo2 {
   border: solid 2px seagreen;
-  
 }
-.cuerpo-hijo3{
+.cuerpo-hijo3 {
   font-size: 30px;
   font-weight: 400;
 }
-.article-padre{
+.article-padre {
   display: flex;
   border: solid 2px cornflowerblue;
 }
-

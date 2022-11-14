@@ -28,6 +28,8 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background-image: url(../img/batman_y_quinn.jpg);
+  background-size:cover;
 }
 
 .caja {
@@ -40,7 +42,7 @@ body {
   /* margin es el atajo de -> margin-top, margin-bottom, margin-right y margin-left */
   /* PADDING -> Relleno - espacio entre el contenido y el border */
   padding: 5px;
-  border: solid 1px;
+  color: #fff9f9;
   text-align: center;
 }
 .fondo {
@@ -56,7 +58,7 @@ body {
   right: 80px;
   z-index: 1;
 }
-.perfil {
+.perfil { border-radius: 100px;
   position: relative;
   bottom: 100px;
   z-index: 1;
