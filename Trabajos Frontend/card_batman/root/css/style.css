@@ -30,6 +30,7 @@ body {
   align-items: center;
   background-image: url(../img/batman_y_quinn.jpg);
   background-size:cover;
+  background-attachment: fixed;
 }
 
 .caja {
