@@ -215,20 +215,31 @@ h2 {
   position: relative;
   left: 200px;
 }
-.logosPadre {
+.logosPadre { 
+  border: solid 5px hotpink;
+  height: 400px;
+  width: 10%auto;
   background-color: #3c2313;
-  color: white;
-  padding-top: 50px;
+  color:white;
+  padding-top: 50px;padding-left: 50px;
 }
 .logoHijo{
   font-size: 30px;position: relative;
   left: 80px;
   bottom: 60px;
-  padding-top: 40x;
 }
+
 .logoHijo1{
   position: relative;
   left: 100px;
   bottom: 60px;
   font-size: 9px;
-}
+ 
+} 
+.logoHijo2{ 
+ position: absolute;
+left: 1700px;}
+.finFotter{text-align: center;background-color: #8a8787;
+color: #fbfaf6;}
+
+
