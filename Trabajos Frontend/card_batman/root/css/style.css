@@ -7,6 +7,8 @@
 }
 body {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  width: 1900px;
+  height: 100%;
 }
 .title {
   background-color: #1cd1b0;
@@ -24,12 +26,10 @@ body {
   line-height: 47px;
 }
 .contenedor_padre {
-  height: 80vh;
+  height: 1000px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-image: url(../img/batman_y_quinn.jpg);
-  background-size:cover;
   background-attachment: fixed;
 }
 
@@ -43,8 +43,9 @@ body {
   /* margin es el atajo de -> margin-top, margin-bottom, margin-right y margin-left */
   /* PADDING -> Relleno - espacio entre el contenido y el border */
   padding: 5px;
-  color: #fff9f9;
+  color: black;
   text-align: center;
+  border: solid 2px black;
 }
 .fondo {
   height: 255px;
@@ -59,7 +60,8 @@ body {
   right: 80px;
   z-index: 1;
 }
-.perfil { border-radius: 100px;
+.perfil {
+  border-radius: 100px;
   position: relative;
   bottom: 100px;
   z-index: 1;
@@ -91,3 +93,21 @@ button {
   margin: 20px 1px 1px 1px;
   padding: 16px 16px 16px;
 }
+@media (max-width: 1500px) {
+  body{
+    width: 1000px;
+    height: 100%;
+  }
+  .contenedor_padre{
+    flex-direction: column;
+  }
+  .title{
+    width: 1400px;
+  }
+  .title_dos{
+    width: 1400px;
+  }
+  
+  }
+  
+
