@@ -1,0 +1,352 @@
+/*AQUI ESTILOS GENERALES*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+body {
+  width: 90%;
+  max-width: 1441px;
+  margin: auto;
+}
+.flex-contein {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/*AQUI ESTILO ENCABEZADO */
+header {
+  width: 100%;
+  height: 174px;
+}
+.navEncabezado {
+  width: 500px;
+}
+.link {
+  color: #1e1e26;
+  font-size: 13px;
+  font-weight: 500;
+}
+.menuHamaburgeza {
+  display: none;
+}
+/* AQUI PSEUDO SELECTOR*/
+a:hover {
+  text-decoration: underline;
+}
+.rotarImagen:hover {
+  transform: rotate(50deg);
+}
+/*AQUI ESTILO PRIMER SECTION CON LA IMAGEN MAS GRANDE*/
+.primerSection {
+  width: 100%;
+  margin: 5px;
+}
+.Roby {
+  background-size: contain;
+  width: 500px;
+  height: 500px;
+  background-image: url(../imagenes/padel-intro.png);
+  background-repeat: no-repeat;
+}
+.Titulo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+  padding: 50px;
+  width: 550px;
+  height: 500px;
+}
+h1 {
+  font-weight: 700;
+  font-size: 50px;
+  text-align: right;
+}
+p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 156%;
+}
+.Paragraf {
+  text-align: right;
+}
+button {
+  background-color: #8b48bf;
+  border: none;
+  color: #ffffff;
+  width: 134px;
+  height: 44px;
+  border-radius: 50px;
+  font-weight: 500px;
+  font-size: 13px;
+  transition: all 1s;
+}
+/* AQUI PSEUDO SELECTOR*/
+button:hover {
+  cursor: pointer;
+  background-color: rgb(124, 38, 124);
+}
+/* AQUIN EL ESTILO DE LA  SEGUNDA SECTION DEBAJO DE LA IMAGEN MAS GRANDE */
+.segundaSection {
+  margin: 30px 0px;
+  background-color: #8b48bf;
+  color: #ffffff;
+  width: 100%;
+  height: 168px;
+  line-height: 160%;
+}
+/*AQUI  LA TERCER SECTION Y EL ESTILO DE LAS TRES PRIMERAS CARD*/
+.terceraSection {
+  background-color: #fafafa;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: 350px;
+}
+.card {
+  display: flex;
+  width: 553px;
+  height: 158px;
+}
+.Descripcion {
+  line-height: 160%;
+  width: 30vw;
+  height: 130px;
+}
+.Marcador {
+  width: 50px;
+  height: 30px;
+  margin-right: 20px;
+}
+/* AQUI CUARTA SECTION DESCRIPCION DE LOS JUGADORES DE PADLE*/
+.cuartaSection {
+  margin: 100px 5px;
+}
+h4 {
+  text-align: center;
+  margin-bottom: 100px;
+  font-weight: 700;
+  font-size: 30px;
+}
+.perfilJugadores {
+  margin: 50px 0px;
+}
+.Paragraf2 {
+  text-align: center;
+  line-height: 156%;
+}
+.cardPadle,
+.cardPadle1,
+.cardPadle2 {
+  background-color: #fafafa;
+  width: 445px;
+  height: 219px;
+}
+.fotoPerfil {
+  position: relative;
+  bottom: 50px;
+  left: 180px;
+}
+h5 {
+  position: relative;
+  bottom: 45px;
+  text-decoration: dotted;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+}
+.botonMore {
+  position: relative;
+  left: 550px;
+}
+/* AQUI QUINTA SECTION ARRIBA DEL FOOTER*/
+.quintaSection {
+  background-color: #8b48bf;
+  color: #ffffff;
+  width: 100%;
+  height: 224px;
+}
+.titelThebest {
+  width: 250px;
+}
+.Wego {
+  margin-right: 100px;
+  background-color: #ffffff;
+  color: #8b48bf;
+}
+/* AQUI COMIENZA EL ESTILO PARA FOOTER FIN DE  LA PAGINA*/
+footer {
+  height: 247px;
+  background-color: #1e1e26;
+}
+.conteinLogos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 250px;
+  height: 200px;
+}
+
+.Contein {
+  color: #1e1e26;
+  margin: 30px 0px 0px 10px;
+  width: 250px;
+  height: 200px;
+}
+
+a {
+  display: flex;
+  flex-direction: column;
+  line-height: 300%;
+  text-decoration: none;
+  color: #fafafa;
+}
+input {
+  margin: 0px 10px 0px 0px;
+  width: 201px;
+  height: 44px;
+  border-radius: 50px;
+}
+.botonVamos {
+  width: 63px;
+  height: 42px;
+}
+.allRights {
+  background-color: #1e1e26;
+  color: #8c8c94;
+  text-align: right;
+  font-size: 12px;
+  padding-right: 40px;
+}
+/* AQUI MEDIA QUERIES*/
+@media (max-width: 485px) {
+  body {
+    width: 95%;
+    max-width: 481px;
+    margin: auto;
+  }
+  /* AQUI MEDIA QUERIES PARA EL ENCABEZADO*/
+  .navEncabezado {
+    display: none;
+  }
+  .Contacto {
+    display: none;
+  }
+  .menuHamaburgeza {
+    display: block;
+  }
+  /* AQUI MEDIA QUERIES PARA LA PRIMERA SECTION*/
+  .primerSection {
+    width: 450px;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+  }
+  .Titulo {
+    width: 450px;
+    height: 600px;
+    font-size: 30px;
+  }
+  .Roby {
+    width: 450px;
+    height: 500px;
+  }
+  .contacto {
+    margin: 30px;
+  }
+  /* AQUI MEDIA QUERIES PARA LA SEGUNDA SECTION*/
+  .segundaSection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #3cddf3;
+    height: 306px;
+    margin-bottom: 50px;
+  }
+  /* AQUI MEDIA QUERIES PARA LA TERCERA SECTION*/
+  .terceraSection {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .card {
+    width: 440px;
+    height: 180px;
+  }
+  .Descripcion {
+    width: 435px;
+    height: 180px;
+  }
+  h3 {
+    background-color: #8b48bf4d;
+    padding-left: 20px;
+  }
+  .Marcador {
+    position: relative;
+    left: 10px;
+  }
+  /* AQUI MEDIA QUERIES PARA LA CUARTA SECTION*/
+  .cardPadle,
+  .cardPadle2 {
+    display: none;
+  }
+  .fotoPerfil {
+    position: relative;
+    bottom: 50px;
+    left: 180px;
+  }
+  .botonMore {
+    position: relative;
+    left: 150px;
+  }
+  /* AQUI MEDIA QUERIES PARA LA QUINTA SECTION ARRIBA DEL FOOTER*/
+  .quintaSection {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #3cddf3;
+    height: 240px;
+  }
+  .titelThebest {
+    font-size: 20px;
+    width: 187px;
+  }
+
+  .Wego {
+    background-color: #1e1e26;
+    color: #fafafa;
+    position: relative;
+    left: 50px;
+    margin-bottom: 20px;
+  }
+  /* AQUI MEDIA QUERIES PARA EL FOOTER*/
+  footer {
+    height: 600px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  input {
+    width: 308px;
+    margin-right: 10px;
+    margin-left: 15px;
+  }
+  .conteinTexto {
+    width: 400px;
+  }
+  .conteinLogos {
+    width: 400px;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 25px;
+  }
+  .Logo {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .allRights {
+    text-align: center;
+  }
+}
