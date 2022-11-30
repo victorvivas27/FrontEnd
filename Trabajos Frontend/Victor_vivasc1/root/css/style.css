@@ -121,7 +121,7 @@ button:hover {
   height: 30px;
   margin-right: 20px;
 }
-/* AQUI CUARTA SECTION DESCRIPCION DE LOS JUGADORES DE PADLE*/
+/* AQUI CUARTA SECTION DESCRIPCION DE LOS JUGADORES DE PADDLE*/
 .cuartaSection {
   margin: 100px 5px;
 }
@@ -134,13 +134,14 @@ h4 {
 .perfilJugadores {
   margin: 50px 0px;
 }
-.Paragraf2 {
+
+.Paragraf {
   text-align: center;
   line-height: 156%;
 }
-.cardPadle,
-.cardPadle1,
-.cardPadle2 {
+.cardPaddle,
+.cardPaddle1,
+.cardPaddle2 {
   background-color: #fafafa;
   width: 445px;
   height: 219px;
@@ -222,7 +223,7 @@ input {
   padding-right: 40px;
 }
 /* AQUI MEDIA QUERIES*/
-@media (max-width: 485px) {
+@media (max-width: 800px) {
   body {
     width: 95%;
     max-width: 481px;
@@ -286,11 +287,12 @@ input {
   }
   .Marcador {
     position: relative;
-    left: 10px;
+    left: 30px;
+    bottom: 2px;
   }
   /* AQUI MEDIA QUERIES PARA LA CUARTA SECTION*/
-  .cardPadle,
-  .cardPadle2 {
+  .cardPaddle,
+  .cardPaddle2 {
     display: none;
   }
   .fotoPerfil {
