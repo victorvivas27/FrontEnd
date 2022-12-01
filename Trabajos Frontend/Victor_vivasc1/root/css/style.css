@@ -5,15 +5,24 @@
   box-sizing: border-box;
   font-family: "Be Vietnam Pro", sans-serif;
 }
-body {
-  width: 90%;
-  max-width: 1441px;
-  margin: auto;
+html {
+  width: 99%;
+  margin: 1px;
 }
 .flex-contein {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+.btn {
+  background-color: #8b48bf;
+  border: none;
+  color: #ffffff;
+  padding: 20px 70px;
+  border-radius: 50px;
+  font-weight: 500px;
+  font-size: 13px;
+  transition: all 1s;
 }
 /*AQUI ESTILO ENCABEZADO */
 header {
@@ -21,7 +30,8 @@ header {
   height: 174px;
 }
 .navEncabezado {
-  width: 500px;
+  width: 450px;
+  list-style-type: none;
 }
 .link {
   color: #1e1e26;
@@ -64,33 +74,16 @@ h1 {
   font-size: 50px;
   text-align: right;
 }
-p {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 156%;
-}
-.Paragraf {
+.Titulo p {
   text-align: right;
-}
-button {
-  background-color: #8b48bf;
-  border: none;
-  color: #ffffff;
-  width: 134px;
-  height: 44px;
-  border-radius: 50px;
-  font-weight: 500px;
-  font-size: 13px;
-  transition: all 1s;
 }
 /* AQUI PSEUDO SELECTOR*/
 button:hover {
   cursor: pointer;
-  background-color: rgb(124, 38, 124);
+  opacity: 65%;
 }
 /* AQUIN EL ESTILO DE LA  SEGUNDA SECTION DEBAJO DE LA IMAGEN MAS GRANDE */
 .segundaSection {
-  margin: 30px 0px;
   background-color: #8b48bf;
   color: #ffffff;
   width: 100%;
@@ -99,6 +92,7 @@ button:hover {
 }
 /*AQUI  LA TERCER SECTION Y EL ESTILO DE LAS TRES PRIMERAS CARD*/
 .terceraSection {
+  padding-top: 30px;
   background-color: #fafafa;
   display: flex;
   flex-wrap: wrap;
@@ -118,7 +112,12 @@ button:hover {
 }
 .Marcador {
   width: 50px;
-  height: 30px;
+  height: 27px;
+  border-radius: 20px;
+  border: none;
+  background-color: #8b48bf;
+  color: #ffffff;
+  font-weight: 600;
   margin-right: 20px;
 }
 /* AQUI CUARTA SECTION DESCRIPCION DE LOS JUGADORES DE PADDLE*/
@@ -134,8 +133,8 @@ h4 {
 .perfilJugadores {
   margin: 50px 0px;
 }
-
 .Paragraf {
+  padding: 0px 45px;
   text-align: center;
   line-height: 156%;
 }
@@ -143,13 +142,12 @@ h4 {
 .cardPaddle1,
 .cardPaddle2 {
   background-color: #fafafa;
-  width: 445px;
   height: 219px;
 }
 .fotoPerfil {
   position: relative;
   bottom: 50px;
-  left: 180px;
+  left: 200px;
 }
 h5 {
   position: relative;
@@ -161,7 +159,7 @@ h5 {
 }
 .botonMore {
   position: relative;
-  left: 550px;
+  left: 600px;
 }
 /* AQUI QUINTA SECTION ARRIBA DEL FOOTER*/
 .quintaSection {
@@ -180,24 +178,23 @@ h5 {
 }
 /* AQUI COMIENZA EL ESTILO PARA FOOTER FIN DE  LA PAGINA*/
 footer {
-  height: 247px;
+  width: 100%;
+  height: 250px;
   background-color: #1e1e26;
 }
 .conteinLogos {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 250px;
+  width: 200px;
   height: 200px;
 }
-
 .Contein {
   color: #1e1e26;
   margin: 30px 0px 0px 10px;
-  width: 250px;
+  width: 200px;
   height: 200px;
 }
-
 a {
   display: flex;
   flex-direction: column;
@@ -206,28 +203,33 @@ a {
   color: #fafafa;
 }
 input {
-  margin: 0px 10px 0px 0px;
-  width: 201px;
+  margin: 0px 5px 0px 0px;
+  width: 310px;
   height: 44px;
   border-radius: 50px;
 }
 .botonVamos {
-  width: 63px;
-  height: 42px;
+  margin-right: 20px;
+  padding: 15px 25px;
 }
-.allRights {
-  background-color: #1e1e26;
-  color: #8c8c94;
-  text-align: right;
-  font-size: 12px;
-  padding-right: 40px;
+.conteinForm {
+  flex-wrap: wrap;
+  width: 430px;
+}
+.derechos-front {
+  font-size: 10px;
+  padding-right: 30px;
+  color: #ffffff;
+  padding: 40px 0px 0px;
+}
+.derechos-front1 {
+  display: none;
 }
 /* AQUI MEDIA QUERIES*/
 @media (max-width: 800px) {
-  body {
-    width: 95%;
-    max-width: 481px;
-    margin: auto;
+  html {
+    width: 99%;
+    max-width: 480px;
   }
   /* AQUI MEDIA QUERIES PARA EL ENCABEZADO*/
   .navEncabezado {
@@ -238,6 +240,10 @@ input {
   }
   .menuHamaburgeza {
     display: block;
+  }
+  .menuHamaburgeza:hover {
+    cursor: pointer;
+    opacity: 65%;
   }
   /* AQUI MEDIA QUERIES PARA LA PRIMERA SECTION*/
   .primerSection {
@@ -288,7 +294,7 @@ input {
   .Marcador {
     position: relative;
     left: 30px;
-    bottom: 2px;
+    bottom: 1px;
   }
   /* AQUI MEDIA QUERIES PARA LA CUARTA SECTION*/
   .cardPaddle,
@@ -298,7 +304,7 @@ input {
   .fotoPerfil {
     position: relative;
     bottom: 50px;
-    left: 180px;
+    left: 195px;
   }
   .botonMore {
     position: relative;
@@ -316,13 +322,12 @@ input {
     font-size: 20px;
     width: 187px;
   }
-
   .Wego {
-    background-color: #1e1e26;
+    background-color: #232c50;
     color: #fafafa;
     position: relative;
     left: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
   }
   /* AQUI MEDIA QUERIES PARA EL FOOTER*/
   footer {
@@ -330,8 +335,11 @@ input {
     display: flex;
     flex-direction: column-reverse;
   }
+  .conteinForm {
+    width: 400px;
+  }
   input {
-    width: 308px;
+    width: 280px;
     margin-right: 10px;
     margin-left: 15px;
   }
@@ -348,7 +356,13 @@ input {
     text-align: center;
     margin-bottom: 30px;
   }
-  .allRights {
-    text-align: center;
+  .derechos-front {
+    display: none;
+  }
+  .derechos-front1 {
+    display: block;
+    color: #ffffff;
+    font-size: 10px;
+    padding-top: 30px;
   }
 }
