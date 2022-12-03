@@ -1,0 +1,231 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+html {
+  border: solid 4px chartreuse;
+  width: 99%;
+  font-family: "Roboto", sans-serif;
+}
+
+/* AQUI ESTILLO DEL ENCABEZADO*/
+.contein-encabezado {
+  width: 100%;
+  height: 100px;
+  background-color: #222222;
+}
+.contein-navegacion {
+  width: 350px;
+  list-style-type: none;
+}
+.logo-hamburgeza {
+  color: white;
+  display: none;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.logo-encabezado {
+  padding: 30px;
+}
+.color1 {
+  color: #f3f3f3;
+}
+.color2 {
+  color: #d01418;
+}
+/* AUI ESTILO DE LA PRIMERA SECTION*/
+.contein-fondo {
+  width: 100%;
+  justify-content: center;
+  background-image: url(../img/img\ 1.svg);
+  height: 512px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contein-oferta {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width:800px;
+  height: 50px;
+}
+.color4 {
+  color: #f3f3f3;
+  font-size: 40px;
+  font-weight: 500;
+}
+.color3 {
+  color: #d01418;
+  font-size: 40px;
+  font-weight: 700;
+}
+button {
+  background-color: #d01418;
+  padding: 20px 80px;
+  border-radius: 5px;
+  color: #f3f3f3;
+  margin-top: 30px;
+  font-size: 20px;
+}
+button:hover {
+  background-color: #7a0c0e;
+}
+/* AQUI ESTILO PARA LOS ARTICULOS EN VENTA*/
+.contein-productos {
+  width: 100%;
+  justify-content: space-around;
+  height: 400px;
+  background-color:#f3f3f3;
+}
+.card-contein {
+  border-radius: 5px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  width: 265px;
+  height: 322px;
+}
+.imagen-ps4 {
+  margin-bottom: 20px;
+}
+.contein-precios {
+  line-height: 30px;
+  width: 265px;
+  height: 110px;
+  padding: 20px;
+  border-top:solid 1px #222222;
+}
+.delibery {
+  color: #619d00;
+  font-size: 10px;
+}
+/* AQUI SEGUNDA SECCION DE ARTICULA SILLAS GAMMER*/
+.contein-productos-sillas{
+  height: 600px;
+  background-color: #f3f3f3;
+}
+.titulo-banner {
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 30px;
+}
+.contein-banner {
+  background-color: #f3f3f3;
+  justify-content: space-around;
+  margin-top: 30px;
+ 
+}
+.banner-sillas {
+  color: #f3f3f3;
+  background-image: url(../img/banner-silla.svg);
+  width: 361px;
+  height: 135px;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  text-align: right;
+  padding-top: 40px;
+ 
+}
+.banner-sillas2 {
+  color: #f3f3f3;
+  width: 361px;
+  height: 135px;
+  background-image: url(../img/banner\ 1.svg);
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  text-align: right;
+  padding-top: 40px;
+}
+h4{
+  font-weight: 100;
+  font-size: 25px;
+}
+/* AQUI ESTILO PARA EL FOOTER*/
+footer {
+  width: 100%;
+  background-color: #222222;
+  height: 216px;
+}
+.contein-redes {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 50px;
+}
+.titulo-redes {
+  font-size: 30px;
+  font-weight: 800;
+  color: white;
+}
+.contein-logos {
+  display: flex;
+  justify-content: space-around;
+  width: 250px;
+  padding: 30px 50px 0px 0px;
+}
+.final-pie {
+  width: 100%;
+  height: 25px;
+  text-align: center;
+  background-color: #c4c4c4;
+  font-size: 10px;
+  font-weight: 400;
+  padding-top: 8px;
+}
+
+/* AQUI COMIENZA MEDIA QUERIES*/
+
+@media (max-width: 700px) {
+  .logo-hamburgeza {
+    display: block;
+  }
+  .contein-navegacion {
+    display: none;
+  }
+  .color3{
+    width: 80px;
+    height: 50px;
+  }
+  .color4{
+    width: 240px;
+    width:;
+    font-size: 40px;
+  }
+  .contein-oferta {
+    height: 300px;
+    width: 340px;
+  }
+  .contein-productos {
+    flex-direction: column;
+    justify-content: space-around;
+    height: 1200px;
+  } 
+  .contein-banner{
+    flex-direction: column;
+    height: 600px;}
+  .contein-productos-sillas{
+    height:700px;
+    flex-direction: column;
+  }
+  footer{
+    flex-direction: column;
+    height:200px;
+  }
+  .contein-titulo{
+    padding: 0px 50px 0px 0px;
+  }
+  .contein-redes{
+    padding-left: 10px;
+    height: 150px;
+  }
+}
