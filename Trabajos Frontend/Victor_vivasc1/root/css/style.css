@@ -5,10 +5,6 @@
   box-sizing: border-box;
   font-family: "Be Vietnam Pro", sans-serif;
 }
-html {
-  width: 99%;
-  margin: 1px;
-}
 .flex-contein {
   display: flex;
   justify-content: space-around;
