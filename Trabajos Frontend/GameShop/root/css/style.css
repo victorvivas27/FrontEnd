@@ -13,7 +13,6 @@ html {
   width: 99%;
   font-family: "Roboto", sans-serif;
 }
-
 /* AQUI ESTILLO DEL ENCABEZADO*/
 .contein-encabezado {
   width: 100%;
@@ -34,6 +33,7 @@ a {
 }
 .logo-encabezado {
   padding: 30px;
+  animation: creciendo 5s linear infinite;
 }
 .color1 {
   color: #f3f3f3;
@@ -54,7 +54,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width:800px;
+  width: 800px;
   height: 50px;
 }
 .color4 {
@@ -83,7 +83,7 @@ button:hover {
   width: 100%;
   justify-content: space-around;
   height: 400px;
-  background-color:#f3f3f3;
+  background-color: #f3f3f3;
 }
 .card-contein {
   border-radius: 5px;
@@ -101,14 +101,14 @@ button:hover {
   width: 265px;
   height: 110px;
   padding: 20px;
-  border-top:solid 1px #222222;
+  border-top: solid 1px #222222;
 }
 .delibery {
   color: #619d00;
   font-size: 10px;
 }
 /* AQUI SEGUNDA SECCION DE ARTICULA SILLAS GAMMER*/
-.contein-productos-sillas{
+.contein-productos-sillas {
   height: 600px;
   background-color: #f3f3f3;
 }
@@ -123,7 +123,6 @@ button:hover {
   background-color: #f3f3f3;
   justify-content: space-around;
   margin-top: 30px;
- 
 }
 .banner-sillas {
   color: #f3f3f3;
@@ -134,7 +133,6 @@ button:hover {
   border-radius: 10px;
   text-align: right;
   padding-top: 40px;
- 
 }
 .banner-sillas2 {
   color: #f3f3f3;
@@ -146,7 +144,7 @@ button:hover {
   text-align: right;
   padding-top: 40px;
 }
-h4{
+h4 {
   font-weight: 100;
   font-size: 25px;
 }
@@ -182,9 +180,7 @@ footer {
   font-weight: 400;
   padding-top: 8px;
 }
-
 /* AQUI COMIENZA MEDIA QUERIES*/
-
 @media (max-width: 700px) {
   .logo-hamburgeza {
     display: block;
@@ -192,13 +188,12 @@ footer {
   .contein-navegacion {
     display: none;
   }
-  .color3{
+  .color3 {
     width: 80px;
     height: 50px;
   }
-  .color4{
+  .color4 {
     width: 240px;
-    width:;
     font-size: 40px;
   }
   .contein-oferta {
@@ -209,22 +204,23 @@ footer {
     flex-direction: column;
     justify-content: space-around;
     height: 1200px;
-  } 
-  .contein-banner{
+  }
+  .contein-banner {
     flex-direction: column;
-    height: 600px;}
-  .contein-productos-sillas{
-    height:700px;
+    height: 600px;
+  }
+  .contein-productos-sillas {
+    height: 700px;
     flex-direction: column;
   }
-  footer{
+  footer {
     flex-direction: column;
-    height:200px;
+    height: 200px;
   }
-  .contein-titulo{
+  .contein-titulo {
     padding: 0px 50px 0px 0px;
   }
-  .contein-redes{
+  .contein-redes {
     padding-left: 10px;
     height: 150px;
   }
