@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+    font-family: 'Dosis', sans-serif;;
+  background-image: url(../img/img-navidad.webp);
+  background-repeat: no-repeat;
+background-size:cover;
+}
+.contenedor-padre {
+  display: flex;
+  justify-content: center;
+  .contenedor-formulario {
+    background-color: rgb(224, 235, 160);
+    border-radius: 15px;
+    margin:50px ;
+    border: solid 1px cornsilk;
+    border-style:unset;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+  }
+
+  .estilo-form {
+    background-color: rgb(194, 149, 236);
+    width: 350px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+  }
+  .estilo-boton{
+    border: none;
+    padding:10px 70px;
+    margin:50px 20px;
+    background-color: rgb(97, 52, 138);
+    color: cornsilk;
+    border-radius: 15px;
+  }
+  a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color:darkgoldenrod;
+  }
+}
