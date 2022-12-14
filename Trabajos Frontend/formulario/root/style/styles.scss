@@ -1,52 +1,65 @@
 * {
   margin: 0;
   padding: 0;
-}
-* {
   box-sizing: border-box;
 }
-body {
-    font-family: 'Dosis', sans-serif;;
-  background-image: url(../img/img-navidad.webp);
-  background-repeat: no-repeat;
-background-size:cover;
+body{
+  font-family: "Dosis", sans-serif;
+  background-color: hsla(219, 32%, 76%, 0.401);
+ 
 }
 .contenedor-padre {
   display: flex;
   justify-content: center;
+  border: solid 2px salmon;
   .contenedor-formulario {
     background-color: rgb(224, 235, 160);
     border-radius: 15px;
-    margin:50px ;
+    margin: 50px;
     border: solid 1px cornsilk;
-    border-style:unset;
+    border-style: unset;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 500px;
+    box-shadow: 20px 20px 40px rgb(58, 52, 52);
   }
 
   .estilo-form {
-    background-color: rgb(194, 149, 236);
+    background-color: rgb(216, 196, 234);
     width: 350px;
     height: 50px;
     border-radius: 50px;
     border: none;
   }
-  .estilo-boton{
+  .estilo-archivo {
+    display: none;
+  }
+  .seleccion-archivo {
+    font-size: 10px;
+    padding: 40px;
+    text-align: center;
+  }
+
+  .estilo-boton {
     border: none;
-    padding:10px 70px;
-    margin:50px 20px;
+    padding: 10px 70px;
+    margin: 50px 20px;
     background-color: rgb(97, 52, 138);
     color: cornsilk;
     border-radius: 15px;
   }
-  a{
+  a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10px;
     margin-bottom: 10px;
     text-decoration: none;
-    color:darkgoldenrod;
+    color: darkgoldenrod;
+  }
+  .cursor:hover {
+    color: rgb(226, 108, 108);
+    cursor: pointer;
+    transform: scale(1.3);
   }
 }

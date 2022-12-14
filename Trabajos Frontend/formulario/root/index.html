@@ -5,7 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FORMULARIO</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis&display=swap"
+      rel="stylesheet"
+    />
     <link href="style/styles.css" rel="stylesheet" />
   </head>
   <body>
@@ -13,30 +18,37 @@
     <div class="contenedor-padre">
       <form class="contenedor-formulario" action="/registro" method="GET">
         <label for="nombre">Nombre</label>
-        <input class="estilo-form" type="text" name="usuario" id="nombre" />
+        <input class=" cursor estilo-form" type="text" name="usuario" id="nombre" />
         <label for="number">Edad</label>
-        <input class="estilo-form" type="number" name="edad" id="number" />
+        <input class=" cursor estilo-form" type="number" name="edad" id="number" />
         <label>Fecha de nacimiento</label>
-        <input class="estilo-form" type="date" name="fecha" id="fecha" />
-        <label>Imagen de perfil</label>
-        <input
-          class="estilo-form"
-          type="file"
-          name="avatar"
-          accept=".jpg"
-          multiple
-        />
+        <input class=" cursor estilo-form" type="date" name="fecha" id="fecha" />
+        <label for="archivo">Foto de perfil</label>
+        <div class=" cursor estilo-form">
+          <label class="seleccion-archivo" for="archivo"
+            >seleccionar archivo</label
+          >
+          <input
+            class="estilo-archivo"
+            type="file"
+            name="archivo"
+            id="archivo"
+            accept=".jpg"
+            multiple
+          />
+        </div>
+
         <label for="email">Email</label>
-        <input class="estilo-form" type=" email" name="email" id="email" />
+        <input class=" cursor estilo-form" type=" email" name="email" id="email" />
         <label for="telefono">Telefono</label>
-        <input class="estilo-form" type="tel" name="telefono" id="telefono" />
+        <input class=" cursor estilo-form" type="tel" name="telefono" id="telefono" />
         <label for="password">Clave</label>
-        <input class="estilo-form" type="password" name="clave" id="password" />
+        <input class=" cursor estilo-form" type="password" name="clave" id="password" />
         <div class="contenedor-padre">
-        <button class="estilo-boton" type="reset">Canselar</button>
-        <button class="estilo-boton" type="submit">Enviar</button>
-      </div>
-      <a href="#">terminos y condiciones</a>
+          <button class=" cursor estilo-boton" type="reset">Canselar</button>
+          <button class=" cursor estilo-boton" type="submit">Enviar</button>
+        </div>
+        <a class=" cursor" href="#">terminos y condiciones</a>
       </form>
     </div>
   </body>
