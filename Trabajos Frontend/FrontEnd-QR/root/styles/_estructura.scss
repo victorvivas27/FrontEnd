@@ -18,3 +18,11 @@ body {
   height: 500px;
   background-color: rgb(202, 211, 229);
 }
+@media 
+  (max-width:700px){
+  .contenedor-card {
+    display: flex;
+    flex-direction: column;
+    height: 1200px;
+  }
+}
