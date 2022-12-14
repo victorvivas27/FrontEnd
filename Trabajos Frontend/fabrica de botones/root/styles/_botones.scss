@@ -1,0 +1,23 @@
+@mixin boton($bg-color, $color, $radius) {
+  padding: 50px 60px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-width: 2px;
+  font-size: 18px;
+  margin: 20px;
+  background-color: $bg-color;
+  color: $color;
+  border-radius: $radius;
+}
+.boton1 {
+  @include boton(rgb(44, 40, 40), rgb(244, 231, 231), 100px);
+}
+.boton2 {
+  @include boton(rgb(124, 30, 30), rgb(244, 231, 231), 30px);
+}
+.boton3 {
+  @include boton(rgb(91, 58, 198), rgb(244, 231, 231), 40px);
+}
+.boton4 {
+  @include boton(rgb(48, 170, 50), rgb(244, 231, 231), 50px);
+}
