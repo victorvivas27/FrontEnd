@@ -1,0 +1,47 @@
+.contenedor-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 330px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 0px 0px 15px 15px black;
+  h1 {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+  }
+  p {
+    font-size: 15px;
+    text-align: center;
+  }
+  .contenedor-qr {
+    background-color: rgb(65, 107, 175);
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px 15px black;
+  }
+  i {
+    position: absolute;
+  }
+  .qr-personal {
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0px 0px 15px 15px black;
+  }
+  .email {
+    background-image: url(../images/qrcode_41770468_personal.png);
+  }
+  .whatsapp {
+    background-image: url(../images/qrcode_41796886_whatssap.png);
+  }
+  .instagram {
+    background-image: url(../images/qrcode_41798212-instragram.png);
+  }
+}
