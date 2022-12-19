@@ -1,6 +1,7 @@
 #Frontend Mentor - componente de código QR
 
-![Vista previa del diseño para el desafío de codificación del componente del código QR](./design/desktop-preview.jpg)
+![Vista previa del diseño para el desafío de codificación del componente del código QR](./root/images/desktop-preview.jpg)
+![Vista previa de como quedo el diseño diseño para el desafío de codificación del componente del código QR](./root/images/Captura%20de%20pantalla%20(41).png)
 
 ## ¡Bienvenidos! 👋
 
