@@ -1,0 +1,24 @@
+@mixin cartas($areas, $bg-color, $color, $radius, $shadow) {
+  font-size: 13px;
+  margin: 10px;
+  grid-area: $areas;
+  background-color: $bg-color;
+  color: $color;
+  border-radius: $radius;
+  box-shadow: $shadow;
+}
+.card1 {
+  @include cartas(area1, #7541c8, #ffffff, 10px, 0px 0px 10px 10px #25dcdf);
+}
+.card2 {
+  @include cartas(area2, #48556a, #ffffff, 10px, 0px 0px 10px 10px #c3de3a);
+}
+.card3 {
+  @include cartas(area3, #ffffff, #080808, 10px, 0px 0px 10px 10px #080808);
+}
+.card4 {
+  @include cartas(area4, #ffffff, #080808, 10px, 0px 0px 10px 10px #21a172);
+}
+.card5 {
+  @include cartas(area5, #19212e, #ffffff, 10px, 0px 0px 10px 10px #cc2f2f);
+}

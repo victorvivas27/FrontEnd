@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../images/peakpx\ \(1\).jpg);
+}
+body .contein-card {
+  height: 650px;
+  margin: 50px 30px;
+  background-color: #ecf2f8;
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+  grid-template-rows: 270px 270px;
+  grid-template-areas: "area1 area1 area2 area3" "area4 area5 area5 area3";
+  justify-content: center;
+  padding: 50px;
+}
+body .contein-card .contenedor-foto {
+  display: flex;
+  margin: 10px;
+}
+body .contein-card .contenedor-foto .perfil {
+  border-radius: 30px;
+}
+body .contein-card .contenedor-foto .nombre-perfil {
+  opacity: 0.5;
+  position: relative;
+  left: 15px;
+  top: 5px;
+  width: px;
+}
+body .contein-card .parrafo {
+  opacity: 0.7;
+  margin: 15px;
+}
+body .contein-card h3 {
+  margin: 15px;
+}
+body .contein-card .patt {
+  position: absolute;
+  top: 8px;
+  left: 300px;
+  opacity: 0.3;
+}
+body .card6 {
+  margin: 50px;
+}
+
+.card1 {
+  font-size: 13px;
+  margin: 10px;
+  grid-area: area1;
+  background-color: #7541c8;
+  color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 10px #25dcdf;
+}
+
+.card2 {
+  font-size: 13px;
+  margin: 10px;
+  grid-area: area2;
+  background-color: #48556a;
+  color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 10px #c3de3a;
+}
+
+.card3 {
+  font-size: 13px;
+  margin: 10px;
+  grid-area: area3;
+  background-color: #ffffff;
+  color: #080808;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 10px #080808;
+}
+
+.card4 {
+  font-size: 13px;
+  margin: 10px;
+  grid-area: area4;
+  background-color: #ffffff;
+  color: #080808;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 10px #21a172;
+}
+
+.card5 {
+  font-size: 13px;
+  margin: 10px;
+  grid-area: area5;
+  background-color: #19212e;
+  color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 10px #cc2f2f;
+}/*# sourceMappingURL=main.css.map */
