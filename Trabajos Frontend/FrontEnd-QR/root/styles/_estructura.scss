@@ -8,27 +8,27 @@ body {
   background-image: url(../images/peakpx\ \(3\).jpg);
   background-size: cover;
   background-repeat: no-repeat;
-}
 
-.flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 20px;
-  background-image: url(../images/peakpx\ \(3\).jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.contenedor-card {
-  width: 900px;
-  height: 500px;
-  background-color: rgb(202, 211, 229);
-}
-@media 
-  (max-width:700px){
-  .contenedor-card {
+
+  .flex {
     display: flex;
-    flex-direction: column;
-    height: 1200px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  .contenedor-card {
+    width: 900px;
+    height: 500px;
+    background-color: rgb(116, 149, 210);
+  }
+
+  @media (max-width: 700px) {
+    .contenedor-card {
+      display: flex;
+      flex-direction: column;
+      height: 1200px;
+    }
   }
 }
+
+  
