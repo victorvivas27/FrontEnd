@@ -1,0 +1,43 @@
+.bor {
+  margin: 15px 5px 15px 5px;
+  border-radius: 15px;
+}
+.card-conteiner1 {
+  background-color: #14253d;
+  width: 400px;
+  height: 550px;
+  .card-conteiner2 {
+    background-color: #0d192b;
+    width: 350px;
+    height: 500px;
+    .contein-card {
+      background-color: #14253d;
+      width: 300px;
+      height: 450px;
+      border-radius: 10px;
+      .cubo {
+        width: 250px;
+        height: 230px;
+        margin: 10px 10px 0px 25px;
+        border-radius: 10px;
+      }
+      .gris {
+        color: #8bacda;
+      }
+      .cripto {
+        height: 20px;
+        .moneda {
+          width: 140px;
+          height: 20px;
+          color: #00fff7;
+        }
+      }
+      .perfil {
+        width: 250px;
+        .foto {
+          width: 20px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+@keyframes anime {
+  0% {
+    transform: translateZ(10px);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    transform: translateZ(100px);
+    box-shadow: 0 0 20px 0px rgba(30, 243, 254, 0.35);
+  }
+}
+@keyframes scale-out-center {
+  0% {
+    transform: scale(1);
+    opacity: 0.4;
+  }
+  100% {
+    transform: scale(8);
+    opacity: 0.8;
+  }
+}
+.blanco:hover {
+  color: aqua;
+  cursor: pointer;
+  animation: anime 1s linear infinite;
+}
+.ojo {
+  width: 30px;
+  border-radius: 1px;
+  position:relative;
+  left: 130px;
+  top: 145px;
+  opacity: 0;
+}
+.ojo:hover {
+  background-color: rgb(96, 228, 245);
+  cursor: pointer;
+  animation: scale-out-center 4s linear infinite;
+}
